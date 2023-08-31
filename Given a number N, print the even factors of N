@@ -1,8 +1,8 @@
-n=int(input())
-l=[]
+n=int(input())                #getting input as int
+l=[]                          #creates an empty list to append values of i
 for i in range(2,n+1):
   if n%i==0:
-    if i==n and i%2!=0:
+    if i==n and i%2!=0:       #getting odd values and print -1
       l.append("-1")
     else:
       l.append(i)
